@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --cor0: #001500;
+    --cor1: #2C6040;
+    --cor2: #4B6053;
+    --cor3: #779684;
+    --cor4: #012401e1;
+    --dark: #161616;
+    --light: #ececec;
+    --escrita: #2C6040;
+    --fonte-titulo: 'Bebas Neue', sans-serif;
+}
+
+/*HEADER*/
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.redes ion-icon{
+    font-size: 15px;
+    padding: 1px;
+    color: #392620;
+}
+
+.redes{
+    display: flex;
+    margin-right: 30px;
+}
+
+#logo-google{
+    padding-right: 3px;
+    color: var(--escrita);
+}
+
+.logo img{
+    width: 50px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo p{
+    font-family: var(--fonte-titulo);
+    color: #442d26;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.corestilo{
+    color: var(--escrita);
+}
+
+.orcamento p{
+    margin-left: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #442d26;
+    font-weight: bolder;
+}
+
+/*CARROSSEL IMAGENS*/
+
+.container1{
+    background-color: var(--light);
+    display: flex;
+    margin: 0 8px 0 8px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px var(--cor0);
+}
+
+.container1 img{
+    width: 19.70vw;
+    height: 25vh;
+    transition: .5s;
+}
+
+.container1 img:hover{
+    transition: .5s;
+    scale: 1.06;
+    border-radius: 5px;
+}
+
+
+/*NOSSOS SERVIÇOS*/
+
+.container2{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding-top: 10px;
+    background-color: var(--light);
+    text-align: center;
+    justify-content: center;
+}
+
+#icon-servicos{
+}
+
+#title-servicos{
+}
+
+.container2 img{
+    width: 175px;
+    height: 175px;
+    border-radius: 6px;
+}
+
+.caixa1{
+    width: 225px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.caixa2{
+    width: 225px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*Onde atendemos?*/
+
+iframe{
+    width: 250px;
+    height: 250px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container3 ion-icon{
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    color: var(--cor4);
+}
+
+.container3{
+    padding: 0px;
+}
+
+.container3 p{
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+.container3 h1{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: #442d26;
+}
+
+.container3 iframe{
+    border-radius: 4px;
+    display: flex;
+    margin: auto;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna1{
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.coluna1 img{
+    width: 50px;
+}
+
+.coluna1 a{
+    margin: 0%;
+    padding: 0%;
+}
+
+footer hr{
+    margin: 0%;
+    padding: 0%;
+}
+
+.corestilo2{
+    margin: 0%;
+    padding: 0%;
+}
+
+.juntos p{
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.juntos{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*COLUNA 2 */
+
+.coluna2{
+    margin: 0%;
+    padding: 0%;
+}
+
+.coluna2 a{
+    margin: 0%;
+    padding: 0%;
+}
+
+#link-localizacao{
+    margin: 0%;
+    padding: 0%;
+}
+
+.line1{
+    margin: 0%;
+    padding: 0%;
+}
+
+.separar{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*COLUNA 3 */
+
+.coluna3{
+    margin: 0%;
+    padding: 0%;
+}
+
+.coluna3 ion-icon{
+    margin: 0%;
+    padding: 0%;
+}
+
+.line2{
+    margin: 0%;
+    padding: 0%;
+}
+
+.coluna3 .separar2{
+    margin: 0%;
+    padding: 0%;
+}
+
+#logo-instagram2{
+    margin: 0%;
+    padding: 0%;
+}

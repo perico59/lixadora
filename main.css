@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --cor0: #001500;
+    --cor1: #2C6040;
+    --cor2: #4B6053;
+    --cor3: #779684;
+    --cor4: #012401e1;
+    --dark: #161616;
+    --light: #ececec;
+    --escrita: #2C6040;
+    --fonte-titulo: 'Bebas Neue', sans-serif;
+}
+
+/*CARROSSEL IMAGENS*/
+
+.container1{
+    background-color: var(--light);
+    display: flex;
+    margin: 0 8px 0 8px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px var(--cor0);
+}
+
+.container1 img{
+    width: 19.70vw;
+    height: 90vh;
+    transition: .5s;
+}
+
+.container1 img:hover{
+    transition: .5s;
+    scale: 1.06;
+    border-radius: 5px;
+}
+
+/*NOSSOS SERVIÇOS*/
+
+.container2{
+    padding-top: 10px;
+    background-color: var(--light);
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#icon-servicos{
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    color: var(--cor4);
+}
+
+#title-servicos{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: #442d26;
+    margin: auto 60px;
+    font-weight: bolder;
+}
+
+.container2 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.caixa1{
+    padding-left: 0px;
+    margin-right: 20px;
+    width: 400px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.caixa2{
+    width: 400px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.caixa1 h2{
+    padding: 6px;
+    color: var(--escrita);
+    font-size: 18px;
+}
+
+.caixa2 h2{
+    padding: 6px;
+    color: var(--escrita);
+    font-size: 18px;
+}
+
+.caixa1 p{
+    padding-bottom: 20px;
+    color: rgba(37, 37, 37, 0.788);
+    font-size: 14px;
+}
+
+.caixa2 p{
+    padding-bottom: 20px;
+    color: rgba(37, 37, 37, 0.788);
+    font-size: 14px;
+}
+
+/*ONDE ATENDEMOS?*/
+
+.container3 ion-icon{
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    color: var(--cor4);
+}
+
+.container3{
+    padding: 0px;
+}
+
+.container3 p{
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+.container3 h1{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: #442d26;
+}
+
+.container3 iframe{
+    border-radius: 4px;
+    display: flex;
+    margin: auto;
+}

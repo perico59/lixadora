@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light);
+}
+
+:root{
+    --cor0: #001500;
+    --cor1: #2C6040;
+    --cor2: #4B6053;
+    --cor3: #779684;
+    --cor4: #012401e1;
+    --dark: #161616;
+    --light: #ececec;
+    --escrita: #2C6040;
+    --fonte-titulo: 'Bebas Neue', sans-serif;
+}
+
+.header{
+    background-color: var(--light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 1px 1px 10px #39262059;
+}
+
+.redes ion-icon{
+    font-size: 19px;
+    padding: 1px;
+    color: #392620;
+}
+
+.redes{
+    margin-left: 200px;
+}
+
+#logo-google{
+    padding-left: 4px;
+    color: var(--escrita);
+}
+
+.logo img{
+    width: 70px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo p{
+    font-family: var(--fonte-titulo);
+    color: #442d26;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.corestilo{
+    color: var(--escrita);
+}
+
+.orcamento p{
+    margin-right: 200px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #442d26;
+    font-weight: bolder;
+}
+
